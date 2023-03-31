@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.502a8fd9.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.48e9a8ba.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.919e0b3d.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.814f8fe8.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.9b2556f2.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.89287490.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.d8d18869.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.fa3c098d.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.bf025cd6.png">
+<link rel="icon" type="image/png" sizes="36x36" href="/android-icon-36x36.80af84b6.png">
+<link rel="icon" type="image/png" sizes="72x72" href="/android-icon-72x72.000ce500.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.a7987a9c.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.bbade058.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.5ff86e0e.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.d883dc1a.png">
+<!-- <link rel="manifest" href="./images/favicon/manifest.json"> -->
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+    <title>Готель</title>
+    <link rel="stylesheet" href="/hotel.b07a87f3.css">
+    <script src="/hotel.975ef6c8.js" defer=""></script>
+  </head>
+  <body>
+    <header class="header">
+  <div class="header__container container"> 
+    <a href="/index.html" class="logo header__logo">Mimiho</a>
+    <nav class="nav">
+      <a class="nav__link" href="/restaurant.html">Ресторан</a>
+      <a class="nav__tel" href="tel:+380955559533">
+        <svg class="nav__icon" width="24" height="24">
+          <use href="/icons.adfc4680.svg#icon-tel"></use>
+        </svg>
+        <span class="nav__hidden">095 555 95 33</span>
+      </a>
+      <a class="nav__link" href="/hotel.html">Готель</a>
+      <a class="nav__tel" href="tel:+380668491089">
+        <svg class="nav__icon" width="24" height="24">
+          <use href="/icons.adfc4680.svg#icon-tel"></use>
+        </svg>
+        <span class="nav__hidden">066 849 10 89</span>
+      </a>
+    </nav>
+    <ul class="social">
+  <li class="social__item">
+    <a class="social__link" href="http://www.instagram.com" target="_blank" rel="noopener noreferrer">
+      <svg class="social__icon" width="24" height="24">
+        <use href="/icons.adfc4680.svg#icon-instagram"></use>
+      </svg>
+    </a>
+  </li>
+  <li class="social__item">
+    <a class="social__link" href="http://www.facebook.com" target="_blank" rel="noopener noreferrer">
+      <svg class="social__icon" width="24" height="24">
+        <use href="/icons.adfc4680.svg#icon-facebook"></use>
+      </svg>
+    </a>
+  </li>
+  <li class="social__item">
+    <a class="social__link" href="https://web.telegram.org" target="_blank" rel="noopener noreferrer">
+      <svg class="social__icon" width="24" height="24">
+        <use href="/icons.adfc4680.svg#icon-telegram"></use>
+      </svg>
+    </a>
+  </li>
+</ul>
+
+    <address class="address">
+    <a href="https://goo.gl/maps/PxiSZAbsaJFjPWgw9" class="address__link" target="_blank" rel="noopener noreferrer">
+        <svg class="address__icon" width="24" height="24">
+            <use href="/icons.adfc4680.svg#icon-map"></use>
+        </svg> Україна, м. Полтава, <br> вул. Маршала Бірюзова, 15
+    </a>
+</address>
+  </div>
+</header>
+
+    <main>
+      <section class="hero-background__hotel hero-background">
+    <div class="container hero__container">
+        <div class="hero-text">
+            <h1 class="hero-text__name">MIMIHO</h1>
+            <p class="hero-text__location">Готель</p>
+            
+        </div>
+        <div class="address-button">
+            <div class="address-frame">
+                <!-- <include src="./partials/hotel-page/hotel-hero.html"></include> -->
+                <address class="address">
+                    <a href="https://goo.gl/maps/PxiSZAbsaJFjPWgw9" class="address__link" target="_blank" rel="noopener noreferrer">
+                        <svg class="address__icon" width="24" height="24">
+                            <use href="/icons.adfc4680.svg#icon-map"></use>
+                        </svg> Україна, м. Полтава, <br> вул. Маршала Бірюзова, 15
+                    </a>
+                </address>
+            </div>
+            <div class="hero-button">
+                <button type="button" class="js-open-modal button-hero" data-modal="2">Забронювати номер</button>
+                <button type="button" class="js-open-modal button-hero" data-modal="3">Переглянути ціни</button>
+            </div>
+        </div>
+
+        <div class="hero-socials">
+            <ul class="social">
+  <li class="social__item">
+    <a class="social__link" href="http://www.instagram.com" target="_blank" rel="noopener noreferrer">
+      <svg class="social__icon" width="24" height="24">
+        <use href="/icons.adfc4680.svg#icon-instagram"></use>
+      </svg>
+    </a>
+  </li>
+  <li class="social__item">
+    <a class="social__link" href="http://www.facebook.com" target="_blank" rel="noopener noreferrer">
+      <svg class="social__icon" width="24" height="24">
+        <use href="/icons.adfc4680.svg#icon-facebook"></use>
+      </svg>
+    </a>
+  </li>
+  <li class="social__item">
+    <a class="social__link" href="https://web.telegram.org" target="_blank" rel="noopener noreferrer">
+      <svg class="social__icon" width="24" height="24">
+        <use href="/icons.adfc4680.svg#icon-telegram"></use>
+      </svg>
+    </a>
+  </li>
+</ul>
+
+        </div>
+    </div>
+</section> 
+
+
+      <section class="rooms" data-slider="home-slider">
+  <div class=" container luxe-container">
+    <div class="position-wrapper">
+    <div class="text-item-wrapper">
+      <span class="rooms__phrase">Amet minim mollit non</span>
+      <span class="logo rooms__logo">MIMIHO</span>
+      <h2 class="rooms__title">ДВОМІСНИЙ НОМЕР люкс</h2>
+      <p class="rooms__text">
+        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+        consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+      </p>
+    </div>
+
+    <div data-aos="fade-up" data-aos-duration="1500">
+      <picture>
+        <source srcset="/pic1-desk.634bddd1.jpg   1x, /pic1-desk2x.0547c73b.jpg 2x" media="(min-width: 1280px)">
+        <source srcset="/pic1-tab.3febfae6.jpg 1x, /pic1-tab2x.63a9b758.jpg 2x" media="(min-width: 1024px)">
+        <img class="rooms__img rooms__img--fix-second" srcset="/pic1-mob.27bb71c6.jpg 1x, /pic1-mob2x.c9c9cbd0.png 2x" src="/pic1-mob.27bb71c6.jpg" alt="Двомісний номер люкс">
+      </picture>
+    </div>
+  </div>
+
+    <!-- SLIDER -->
+    <div class="swiper-and-buttons-luxe">
+      <div class="swiper-luxe-container">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <!-- <div class="swiper-slide">
+              <picture class="rooms__img">
+                <source
+                  srcset="
+                    /src/images/hotel-page/slides/slide1-desk.jpg   1x,
+                    /src/images/hotel-page/slides/slide1-desk2x.jpg 2x
+                  "
+                  media="(min-width: 1280px)"
+                />
+                <source
+                  srcset="
+                    /src/images/hotel-page/slides/slide1-tab.jpg   1x,
+                    /src/images/hotel-page/slides/slide1-tab2x.jpg 2x
+                  "
+                  media="(min-width: 1024px)"
+                />
+                <img
+                  srcset="
+                    /src/images/hotel-page/slides/slide1-mob.jpg   1x,
+                    /src/images/hotel-page/slides/slide1-mob2x.jpg 2x
+                  "
+                  src="/src/images/hotel-page/slides/slide1-mob.jpg"
+                  alt="Перший слайд"
+                />
+              </picture>
+            </div> -->
+            <div class="swiper-slide">
+              <picture class="rooms__img">
+                <source srcset="/slide2-desk.5adfbb33.jpg   1x, /slide2-desk2x.715ff22f.jpg 2x" media="(min-width: 1280px)">
+                <source srcset="/slide2-tab.b095468c.jpg   1x, /slide2-tab2x.14186070.jpg 2x" media="(min-width: 1024px)">
+                <img srcset="/slide2-mob.602e92a8.jpg   1x, /slide2-mob2x.ebe76a2f.jpg 2x" src="/slide2-mob.602e92a8.jpg" alt="Другий слайд">
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture class="rooms__img">
+                <source srcset="/slide3-desk.e13d7298.jpg   1x, /slide3-desk2x.e31d7a2e.jpg 2x" media="(min-width: 1280px)">
+                <source srcset="/slide3-tab.cfc42832.jpg   1x, /slide3-tab2x.c4fa88b8.jpg 2x" media="(min-width: 1024px)">
+                <img srcset="/slide3-mob.3071980d.jpg   1x, /slide3-mob2x.69b9d97b.jpg 2x" src="/slide3-mob.3071980d.jpg" alt="Третій слайд">
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture class="rooms__img">
+                <source srcset="/slide4-desk.6314e592.jpg   1x, /slide4-desk2x.e709efa6.jpg 2x" media="(min-width: 1280px)">
+                <source srcset="/slide4-tab.719bd163.jpg   1x, /slide4-tab2x.158cf2f4.jpg 2x" media="(min-width: 1024px)">
+                <img srcset="/slide4-mob.5dfab03c.jpg   1x, /slide4-mob2x.1d0e4319.jpg 2x" src="/slide4-mob.5dfab03c.jpg" alt="Четвертий слайд">
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture class="rooms__img">
+                <source srcset="/slide5-desk.f6933bf5.jpg   1x, /slide5-desk2x.78f77ed8.jpg 2x" media="(min-width: 1280px)">
+                <source srcset="/slide5-tab.0402fe8d.jpg   1x, /slide5-tab2x.a51bc469.jpg 2x" media="(min-width: 1024px)">
+                <img srcset="/slide5-mob.22a829e9.jpg   1x, /slide5-mob2x.2262a599.jpg 2x" src="/slide5-mob.22a829e9.jpg" alt="П'ятий слайд">
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture class="rooms__img">
+                <source srcset="/slide6-desk.52c9274d.jpg   1x, /slide6-desk2x.96878125.jpg 2x" media="(min-width: 1280px)">
+                <source srcset="/slide6-tab.16e1073d.jpg   1x, /slide6-tab2x.8246be38.jpg 2x" media="(min-width: 1024px)">
+                <img srcset="/slide6-mob.84841bce.jpg   1x, /slide6-mob2x.0d7564d4.jpg 2x" src="/slide6-mob.84841bce.jpg" alt="Шостий слайд">
+              </picture>
+            </div>
+          </div>
+          <div class="swiper-luxe__buttons">
+            <button type="button" class="swiper-button-prev luxe-btn-prev">
+              <svg width="32" height="32">
+                <use href="/icons.adfc4680.svg#icon-arrow-left"></use>
+              </svg>
+            </button>
+            <button type="button" class="swiper-button-next luxe-btn-next">
+              <svg width="32" height="32">
+                <use href="/icons.adfc4680.svg#icon-arrow-right"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="last-buttons-luxe">
+        <a class="rooms__link rooms__button button-service link-button" href="/room.html">Детальніше</a>
+        <button class="rooms__button rooms__button--fix button-service js-open-modal" type="button" data-modal="3">
+          Переглянути ціни
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="rooms rooms--colorfix" data-slider="home-slider">
+  <div class="container two-bed-container">
+    <div class="position-wrapper position-wrapper--mod">
+      <div class="text-item-wrapper">
+        <div class="rooms__logo-phrase--fix">
+          <span class="rooms__phrase rooms__phrase--fix">Amet minim mollit non</span>
+          <span class="logo rooms__logo rooms__logo--fix">MIMIHO</span>
+        </div>
+        <h2 class="rooms__title rooms__title--fix">ТРЬОХМІСНИЙ НОМЕР</h2>
+        <p class="rooms__text rooms__text--fix">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+          consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+        </p>
+      </div>
+
+      <div data-aos="fade-up" data-aos-duration="1500">
+        <picture>
+          <source srcset="/room1-1.07f7fe75.jpg   1x, /room1-1-2x.677be522.jpg 2x" media="(min-width: 1280px)">
+          <source srcset="/room1-1-tab.dc666863.jpg    1x, /room1-1-tab2x.60f9fd49.jpg  2x" media="(min-width: 1024px)">
+          <img class="rooms__img rooms__img--fix rooms__img--fix-second" srcset="/room1-1-mob.93c931a6.jpg   1x, /room1-1-mob2x.650fe414.jpg  2x" src="/room1-1-mob.93c931a6.jpg" alt="Трьохмісний номер">
+        </picture>
+      </div>
+    </div>
+
+    <!-- SLIDER- -->
+    <div class="swiper-and-buttons-two-bed">
+      <div class="swiper-two-bed-container">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <!-- <div class="swiper-slide">
+              <picture class="rooms__img">
+                <source
+                  srcset="
+                    /src/images/room-page/more/room1/slide1-desk.jpg   1x,
+                    /src/images/room-page/more/room1/slide1-desk2x.jpg 2x
+                  "
+                  media="(min-width: 1280px)"
+                />
+                <source
+                  srcset="
+                    /src/images/room-page/more/room1/slide1-tab.jpg   1x,
+                    /src/images/room-page/more/room1/slide1-tab2x.jpg 2x
+                  "
+                  media="(min-width: 1024px)"
+                />
+                <img
+                  srcset="
+                    /src/images/room-page/more/room1/slide1-mob.jpg   1x,
+                    /src/images/room-page/more/room1/slide1-mob2x.jpg 2x
+                  "
+                  src="/src/images/room-page/more/room1/slide1-mob.jpg"
+                  alt="Перший слайд"
+                />
+              </picture>
+            </div> -->
+            <div class="swiper-slide">
+              <picture class="rooms__img">
+                <source srcset="/slide3-desk.aec1e050.jpg   1x, /slide3-desk2x.6abccddd.jpg 2x" media="(min-width: 1280px)">
+                <source srcset="/slide3-tab.fb5a0fb0.jpg   1x, /slide3-tab2x.cdc5ff83.jpg 2x" media="(min-width: 1024px)">
+                <img srcset="/slide3-mob.88f82f75.jpg   1x, /slide3-mob2x.21c41ffe.jpg 2x" src="/slide3-mob.88f82f75.jpg" alt="Третій слайд">
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture class="rooms__img">
+                <source srcset="/slide2-desk.5adfbb33.jpg   1x, /slide2-desk2x.715ff22f.jpg 2x" media="(min-width: 1280px)">
+                <source srcset="/slide2-tab.b095468c.jpg   1x, /slide2-tab2x.14186070.jpg 2x" media="(min-width: 1024px)">
+                <img srcset="/slide2-mob.602e92a8.jpg   1x, /slide2-mob2x.ebe76a2f.jpg 2x" src="/slide2-mob.602e92a8.jpg" alt="Другий слайд">
+              </picture>
+            </div>
+            
+            <div class="swiper-slide">
+              <picture class="rooms__img">
+                <source srcset="/slide4-desk.6314e592.jpg   1x, /slide4-desk2x.e709efa6.jpg 2x" media="(min-width: 1280px)">
+                <source srcset="/slide4-tab.719bd163.jpg   1x, /slide4-tab2x.158cf2f4.jpg 2x" media="(min-width: 1024px)">
+                <img srcset="/slide4-mob.5dfab03c.jpg   1x, /slide4-mob2x.1d0e4319.jpg 2x" src="/slide4-mob.5dfab03c.jpg" alt="Четвертий слайд">
+              </picture>
+            </div>
+          </div>
+
+          <div class="swiper-two-bed__buttons">
+            <button type="button" class="swiper-button-prev two-bed-btn-prev">
+              <svg width="32" height="32">
+                <use href="/icons.adfc4680.svg#icon-arrow-left"></use>
+              </svg>
+            </button>
+            <button type="button" class="swiper-button-next two-bed-btn-next">
+              <svg width="32" height="32">
+                <use href="/icons.adfc4680.svg#icon-arrow-right"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="last-two-bed-buttons">
+        <a class="rooms__link rooms__button button-service link-button" href="/room.html">Детальніше</a>
+        <button class="rooms__button rooms__button--fix button-service js-open-modal" type="button" data-modal="3">
+          Переглянути ціни
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="rooms" data-slider="home-slider">
+  <div class="container three-bed-container">
+    <div class="position-wrapper">
+      <div class="text-item-wrapper">
+        <span class="rooms__phrase">Amet minim mollit non</span>
+        <span class="logo rooms__logo">MIMIHO</span> 
+        <h2 class="rooms__title">ДВОМІСНИЙ НОМЕР</h2>
+        <p class="rooms__text">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+          consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+        </p>
+      </div>
+      <div data-aos="fade-up" data-aos-duration="1500">
+        <picture>
+          <source srcset="/room2-1.8c710a17.jpg   1x, /room2-1-2x.0aca927b.jpg  2x" media="(min-width: 1280px)">
+        <source srcset="/room2-1tab.ec4d9d5b.jpg    1x, /room2-1tab2x.e1f49c3a.jpg  2x" media="(min-width: 1024px)">
+        <img class="rooms__img rooms__img--fix-second" srcset="/room2-1mob.cb06d195.jpg   1x, /room2-1mob2x.9e77cef7.jpg 2x" src="/room2-1mob.cb06d195.jpg" alt="Трьохмісний номер">
+        </picture>
+      </div>
+    </div>
+
+    <!-- SLIDER -->
+    <div class="swiper-and-buttons-three-bed">
+      <div class="swiper-three-bed-container">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <!-- <div class="swiper-slide">
+              <picture class="rooms__img">
+                <source
+                  srcset="
+                    /src/images/hotel-page/slides/slide1-desk.jpg   1x,
+                    /src/images/hotel-page/slides/slide1-desk2x.jpg 2x
+                  "
+                  media="(min-width: 1280px)"
+                />
+                <source
+                  srcset="
+                    /src/images/hotel-page/slides/slide1-tab.jpg   1x,
+                    /src/images/hotel-page/slides/slide1-tab2x.jpg 2x
+                  "
+                  media="(min-width: 1024px)"
+                />
+                <img
+                  srcset="
+                    /src/images/hotel-page/slides/slide1-mob.jpg   1x,
+                    /src/images/hotel-page/slides/slide1-mob2x.jpg 2x
+                  "
+                  src="/src/images/hotel-page/slides/slide1-mob.jpg"
+                  alt="Перший слайд"
+                />
+              </picture>
+            </div> -->
+            <div class="swiper-slide">
+              <picture class="rooms__img">
+                <source srcset="/slide2-desk.5adfbb33.jpg   1x, /slide2-desk2x.715ff22f.jpg 2x" media="(min-width: 1280px)">
+                <source srcset="/slide2-tab.b095468c.jpg   1x, /slide2-tab2x.14186070.jpg 2x" media="(min-width: 1024px)">
+                <img srcset="/slide2-mob.602e92a8.jpg   1x, /slide2-mob2x.ebe76a2f.jpg 2x" src="/slide2-mob.602e92a8.jpg" alt="Другий слайд">
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture class="rooms__img">
+                <source srcset="/slide3-desk.e13d7298.jpg   1x, /slide3-desk2x.e31d7a2e.jpg 2x" media="(min-width: 1280px)">
+                <source srcset="/slide3-tab.cfc42832.jpg   1x, /slide3-tab2x.c4fa88b8.jpg 2x" media="(min-width: 1024px)">
+                <img srcset="/slide3-mob.3071980d.jpg   1x, /slide3-mob2x.69b9d97b.jpg 2x" src="/slide3-mob.3071980d.jpg" alt="Третій слайд">
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture class="rooms__img">
+                <source srcset="/slide4-desk.6314e592.jpg   1x, /slide4-desk2x.e709efa6.jpg 2x" media="(min-width: 1280px)">
+                <source srcset="/slide4-tab.719bd163.jpg   1x, /slide4-tab2x.158cf2f4.jpg 2x" media="(min-width: 1024px)">
+                <img srcset="/slide4-mob.5dfab03c.jpg   1x, /slide4-mob2x.1d0e4319.jpg 2x" src="/slide4-mob.5dfab03c.jpg" alt="Четвертий слайд">
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture class="rooms__img">
+                <source srcset="/slide5-desk.f6933bf5.jpg   1x, /slide5-desk2x.78f77ed8.jpg 2x" media="(min-width: 1280px)">
+                <source srcset="/slide5-tab.0402fe8d.jpg   1x, /slide5-tab2x.a51bc469.jpg 2x" media="(min-width: 1024px)">
+                <img srcset="/slide5-mob.22a829e9.jpg   1x, /slide5-mob2x.2262a599.jpg 2x" src="/slide5-mob.22a829e9.jpg" alt="П'ятий слайд">
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture class="rooms__img">
+                <source srcset="/slide6-desk.52c9274d.jpg   1x, /slide6-desk2x.96878125.jpg 2x" media="(min-width: 1280px)">
+                <source srcset="/slide6-tab.16e1073d.jpg   1x, /slide6-tab2x.8246be38.jpg 2x" media="(min-width: 1024px)">
+                <img srcset="/slide6-mob.84841bce.jpg   1x, /slide6-mob2x.0d7564d4.jpg 2x" src="/slide6-mob.84841bce.jpg" alt="Шостий слайд">
+              </picture>
+            </div>
+          </div>
+
+          <div class="swiper-three-bed__buttons">
+            <button type="button" class="swiper-button-prev three-bed-btn-prev">
+              <svg width="32" height="32">
+                <use href="/icons.adfc4680.svg#icon-arrow-left"></use>
+              </svg>
+            </button>
+            <button type="button" class="swiper-button-next three-bed-btn-next">
+              <svg width="32" height="32">
+                <use href="/icons.adfc4680.svg#icon-arrow-right"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="last-three-bed-buttons">
+        <a class="rooms__link rooms__button button-service link-button" href="/room.html">Детальніше</a>
+        <button class="rooms__button rooms__button--fix button-service js-open-modal" type="button" data-modal="3">
+          Переглянути ціни
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer">
+  <div class="footer__container container">
+    <div class="footer__logo">
+      <a href="/index.html" lang="en" class="logo logo--footer">Mimino</a>
+    </div>
+    <div class="footer__nav">
+      <div>
+        <ul class="list footer__links">
+          <li class="item">
+            <a href="/index.html" lang="uk" class="link">Головна</a>
+          </li>
+          <li class="item">
+            <a href="/restaurant.html" lang="uk" class="link">Ресторан</a>
+          </li>
+          <li class="item">
+            <a href="/hotel.html" lang="uk" class="link">Готель</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <ul class="list social footer-social">
+          <li class="social__item">
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="link footer-social__link">
+              <span class="footer-social__name">Instagram </span>
+              <svg class="social__icon" width="24px" height="24px">
+                <use href="/icons.adfc4680.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="link footer-social__link">
+              <span class="footer-social__name">Facebook</span>
+              <svg class="social__icon" width="24px" height="24px">
+                <use href="/icons.adfc4680.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="https://web.telegram.org" target="_blank" rel="noopener noreferrer" class="link footer-social__link">
+              <span class="footer-social__name">Telegram</span>
+              <svg class="social__icon" width="24px" height="24px">
+                <use href="/icons.adfc4680.svg#icon-telegram"></use></svg></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <div class="js-backdrop-modal">
+      <div class="room-price-modal modal" data-modal="3">
+  <button type="button" class="modal__close-btn js-modal-close">
+    <svg width="24px" height="24px" class="modal__close-icon">
+      <use href="/icons.adfc4680.svg#icon-close"></use>
+    </svg>
+  </button>
+  <form class="form-price">
+    <h2 class="modal__title  form-price__title">ціни на номер</h2>
+    <span class="form-price__category">Двомісний люкс</span>
+    <p class="form-price__label modal__label">Категорія номеру</p>
+    <div class="form-price__block">
+      <div class="form-price__field">
+        <select name="nights" class="form__select list-select js-select" id="nights">
+          <option value="1 000">1</option>
+          <option value="2 000">2</option>
+          <option value="3 000">3</option>
+          <option value="4 000">4</option>
+          <option value="5 000">5</option>
+          <option value="6 000">6</option>
+          <option value="7 000">7</option>
+          <option value="8 000">8</option>
+          <option value="9 000">9</option>
+          <option value="10 000">10</option>
+          <option value="11 000">11</option>
+          <option value="12 000">12</option>
+          <option value="13 000">13</option>
+          <option value="14 000">14</option>
+          <option value="15 000">15</option>
+          <option value="16 000">16</option>
+          <option value="17 000">17</option>
+        </select>
+        <label for="nights" class="form-price__label modal__label">Кількість ночей</label>
+      </div>
+      <div class="form-price__field form-price__field--left">
+        <input type="text" name="price" id="price" class="list-select-result form-select__input modal-input" readonly="">
+        <label for="price" class="form-price__label modal__label">грн</label>
+      </div>
+    </div>
+    <button class="modal-form__btn button button-modal form-price__btn" type="submit">забронювати номер</button>
+  </form>
+</div>
+
+      <div class="modal book-room-modal" data-modal="2">
+  <button type="button" class="js-modal-close modal__close-btn" data-modal="2">
+    <svg width="24" height="24">
+      <use href="/icons.adfc4680.svg#icon-close"></use>
+    </svg>
+  </button>
+  <h2 class="modal__title">забронювати номер</h2>
+  <form class="room-modal-form">
+    <div class="room-modal-form__box">
+      <div class="room-modal-form__item">
+        <input class="room-modal-form__input modal__input" type="text" id="user_name" name="name" placeholder="Ваше імʼя">
+        <label class="room-modal__label modal__label" for="user_name">На кого забронювати номер?</label>
+      </div>
+      <div class="room-modal-form__item">
+        <input class="js-inputmask modal__input" id="user_telephone" name="user_telephone">
+        <label class="room-modal__label modal__label" for="user_telephone">Номер телефону</label>
+      </div>
+    </div>
+    <div class="room-modal-form__select-one">
+      <select class="js-select" id="room" name="room">
+        <option value="2xlux" selected="">Двомісний люкс</option>
+        <option value="3x">Трьохмісний номер</option>
+        <option value="2x">Двохмісний номер</option>
+      </select>
+      <label class="room-modal__label modal__label" for="room">Категорія номеру</label>
+    </div>
+    <div class="room-modal-form__box">
+      <div class="room-modal-form__item">
+        <select class="js-select" id="first-date" name="first-date">
+          <option value="first-date" selected="">Сьогодні</option>
+          <option value="date">01.02.2023</option>
+          <option value="date">02.02.2023</option>
+        </select>
+        <label class="room-modal__label modal__label" for="first-date">Дата заїзду</label>
+      </div>
+      <div class="room-modal-form__item">
+        <select class="js-select" id="last-date" name="last-date">
+          <option value="last-date" selected="">Сьогодні</option>
+          <option value="date">03.02.2023</option>
+          <option value="date">04.02.2023</option>
+        </select>
+        <label class="room-modal__label modal__label" for="last-date">Дата виїзду</label>
+      </div>
+    </div>
+    <button class="modal-form__btn button room-modal-form__btn button-modal" type="submit">
+      оформити бронювання
+    </button>
+  </form>
+</div>
+
+      <div class="modal book-table-modal" data-modal="1">
+  <button type="button" class="modal__close-btn js-modal-close" data-modal="1">
+    <svg class="close__icon" width="24" height="24">
+      <use href="/icons.adfc4680.svg#icon-close"></use>
+    </svg>
+  </button>
+
+  <form class="form-table">
+    <h2 class="modal__title">ЗАБРОНЮВАТИ СТОЛИК</h2>
+    <div class="form-table__field">
+      <input type="text" name="name" id="name" placeholder="Ваше ім’я" class="form-table__input modal__input">
+      <label for="name" class="form-table__label modal__label">На кого забронювати столик?</label>
+    </div>
+    <div class="form-table__field">
+      <input type="tel" name="tell" id="tell" placeholder="+38 (___) ___-__-__" class="form-table__input js-inputmask modal__input">
+      <label for="tell" class="form-table__label modal__label">Номер телефону</label>
+    </div>
+    <div class="form-table__field">
+      <select id="number" name="number" class="form-table__select js-select">
+        <option value="1" class="form-table__option">1</option>
+        <option value="2" class="form-table__option" selected="">2</option>
+        <option value="3" class="form-table__option">3</option>
+        <option value="4" class="form-table__option">4</option>
+        <option value="5+" class="form-table__option">5+</option>
+      </select>
+      <label for="number" class="form-table__label modal__label">Столик на яку кількість осіб?</label>
+    </div>
+    <div class="form-table__field">
+      <select id="date" name="date" class="form-table__select js-select">
+        <option value="today" class="form-table__option" selected="">Сьогодні</option>
+        <option value="31.01.2023" class="form-table__option">31.01.2023</option>
+        <option value="01.02.2023" class="form-table__option">01.02.2023</option>
+        <option value="02.02.2023" class="form-table__option">02.02.2023</option>
+        <option value="03.02.2023" class="form-table__option">03.02.2023</option>
+      </select>
+      <label for="date" class="form-table__label modal__label">На яку дату бронювати?</label>
+    </div>
+    <button class="modal-form__btn button button-modal" type="submit">оформити бронювання</button>
+  </form>
+</div>
+
+    </div>
+    <script src="/restaurant.79839a57.js"></script>
+    <script src="/restaurant.f9da1647.js"></script>
+    <script src="/restaurant.d9708400.js"></script>
+    <script src="/restaurant.281a1da9.js"></script>
+  </body>
+</html>
